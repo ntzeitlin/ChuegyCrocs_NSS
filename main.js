@@ -33,3 +33,11 @@ console.log(getClassicBoots(crocCollection))
 
 console.log('SLIDES:')
 console.log(getSlides(crocCollection))
+
+/* 
+AREAS TO REFACTOR:
+Combine get functions into single generalized get function
+Create a display message function to generate the current console.log messages in an array
+then loop through the area to display the messages instead of logging each one. 
+
+*/
